@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
-const Home = () => <h1>Home</h1>
+const Home = () => <h1>Homess</h1>
 const About = () => <h1>About</h1>
 const Post = () => <h1>Post</h1>
 const Project = () => <h1>Project</h1>
