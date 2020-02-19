@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
-import { Route } from 'react-router-dom'
 import styled from 'styled-components'
-class Header extends Component {
-    render() {
-      return (
-        <Wrapper>
-            <Button>About</Button>
-        </Wrapper>
-      )
-    }
-  }
+
+const Header = () => {
+    return (
+      <Wrapper>
+          <Button>About</Button>
+      </Wrapper>
+    )
+}
   
 export default Header
 

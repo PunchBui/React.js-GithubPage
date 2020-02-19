@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
-import Header from './Header.js'
+import Header from './Components/Header.js'
+import Main from './Components/Main.js'
 
 const Home = () => <h1>Home</h1>
 const About = () => <h1>About</h1>
@@ -12,7 +13,7 @@ class App extends Component {
     return (
       <div className="App container">
         <Header/>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Main}/>
         <Route path="/about" component={About} />
         <Route path="/posts" component={Post} />
         <Route path="/projects" component={Project} />
